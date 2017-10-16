@@ -1,7 +1,6 @@
 #header {
   background-image: url("assets/bg-header.jpg");
-  background-position-x: -550px;
-  background-position-y: -150px;
+  background-position: -200px;
   height: 800px;
   font-family: "Montserrat", sans-serif; }
 
@@ -22,4 +21,4 @@
 #top-nav {
   padding-top: 30px; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stye.css.map */

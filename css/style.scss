@@ -1,4 +1,6 @@
 $bg-header: url("assets/bg-header.jpg");
+
+// Fonts
 $montserrat: 'Montserrat', sans-serif;
 $leckerli: 'Leckerli One', cursive;
 $cambay: 'Cambay', sans-serif;
@@ -16,6 +18,18 @@ $text:     #636363;
 $black:    #000000;
 
 
+#header {
+    background-image: $bg-header;
+    background-position-x: -550px;
+    background-position-y: -150px;
+    height: 800px;
+    font-family: $montserrat;
+}
+
+#header nav ul li a {
+    color: $default;
+}
+
 #top-nav nav {
     ul {
         margin: 0;
@@ -30,16 +44,6 @@ $black:    #000000;
         padding: 6px 12px;
         text-decoration: none;
     }
-}
-
-#header {
-    background-image: $bg-header;
-    height: 800px;
-    font-family: $montserrat;
-}
-
-#header nav ul li a {
-    color: $default;
 }
 
 #top-nav {
