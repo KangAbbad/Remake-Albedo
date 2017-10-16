@@ -1,0 +1,48 @@
+$bg-header: url("../assets/bg-header.jpg");
+$montserrat: 'Montserrat', sans-serif;
+$leckerli: 'Leckerli One', cursive;
+$cambay: 'Cambay', sans-serif;
+$coustard: 'Coustard', serif;
+
+// Nav Color
+$default : #FFFFFF;
+$active  : #8799A3;
+$btn     : #FFFF00;
+
+// Header Color
+$default : #FFFFFF;
+$highling: #0081FF;
+$text:     #636363;
+$black:    #000000;
+
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li { display: inline-block; }
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
+
+#header {
+    background-image: $bg-header;
+    height: 800px;
+    font-family: $montserrat;
+}
+
+#header {
+    color: $default;
+}
+
+#top-nav {
+    padding-top: 30px;
+}
+
