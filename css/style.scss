@@ -1,4 +1,4 @@
-$bg-header: url("../assets/bg-header.jpg");
+$bg-header: url("assets/bg-header.jpg");
 $montserrat: 'Montserrat', sans-serif;
 $leckerli: 'Leckerli One', cursive;
 $cambay: 'Cambay', sans-serif;
@@ -16,7 +16,7 @@ $text:     #636363;
 $black:    #000000;
 
 
-nav {
+#top-nav nav {
     ul {
         margin: 0;
         padding: 0;
@@ -38,7 +38,7 @@ nav {
     font-family: $montserrat;
 }
 
-#header {
+#header nav ul li a {
     color: $default;
 }
 
