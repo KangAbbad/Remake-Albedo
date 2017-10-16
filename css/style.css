@@ -29,6 +29,8 @@ body {
   font-size: 16px; }
 #top-nav nav a.active {
   color: #8799A3; }
+#top-nav nav a:hover {
+  color: #8799A3; }
 
 #top-nav {
   padding-top: 30px; }
@@ -44,24 +46,23 @@ body {
   box-shadow: 0px 10px 30px 0px rgba(254, 200, 22, 0.2); }
 
 #hero-header {
-  margin-top: 250px;
-  width: 570px; }
+  margin-top: 250px; }
 
 .say-hi {
   color: #FFFFFF;
   font-family: "Leckerli One", cursive;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 38px;
-  margin-bottom: 18px; }
+  margin-bottom: 12px; }
 
 .introduce {
   color: #FFFFFF;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 900;
   line-height: 65px;
   color: #FFFFFF;
-  margin-bottom: 18px; }
+  margin-bottom: 5px; }
 
 .name {
   color: #0081FF; }
@@ -69,14 +70,14 @@ body {
 .his-job {
   color: #FFFFFF;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 45px;
   color: #FFFFFF;
-  margin-bottom: 28px; }
+  margin-bottom: 15px; }
 
 .desc-hero {
   color: #636363;
-  font-size: 20px; }
+  font-size: 18px; }
 
 #hero-header button {
   background-color: #2b2b2b;

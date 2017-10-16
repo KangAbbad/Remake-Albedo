@@ -54,6 +54,7 @@ body {
         font-size: 16px;
     }
     a.active { color: $active; }
+    a:hover{ color: $active; }
 }
 
 #top-nav {
@@ -73,25 +74,24 @@ body {
 
 #hero-header {
     margin-top: 250px;
-    width: 570px;
 }
 
 .say-hi {
     color: $default;
     font-family: $leckerli;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 38px;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
 }
 
 .introduce {
     color: $default;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 900;
     line-height: 65px;
     color: $default;
-    margin-bottom: 18px;
+    margin-bottom: 5px;
 }
 .name {
     color: $highling;
@@ -100,15 +100,15 @@ body {
 .his-job {
     color: $default;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 45px;
     color: $default;
-    margin-bottom: 28px;
+    margin-bottom: 15px;
 }
 
 .desc-hero {
     color: $text;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #hero-header button{
