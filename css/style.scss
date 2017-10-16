@@ -17,6 +17,9 @@ $highling: #0081FF;
 $text:     #636363;
 $black:    #000000;
 
+body {
+    font-size: 14px;
+}
 
 #header {
     background-image: $bg-header;
@@ -33,7 +36,7 @@ $black:    #000000;
 
 #header nav ul li a {
     color: $default;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 #top-nav nav {
@@ -44,12 +47,13 @@ $black:    #000000;
     }
 
     li { display: inline-block; }
-
     a {
         display: block;
         padding: 6px 12px;
         text-decoration: none;
+        font-size: 16px;
     }
+    a.active { color: $active; }
 }
 
 #top-nav {
@@ -64,7 +68,7 @@ $black:    #000000;
     font-size: 13px;
     font-weight: 700;
     color: $btn-yellow;
-    box-shadow: 0px 10px 30px 0px rgba(254,203,22,0.5);
+    box-shadow: 0px 10px 30px 0px rgba(254, 200, 22, 0.2);
 }
 
 #hero-header {
@@ -104,7 +108,7 @@ $black:    #000000;
 
 .desc-hero {
     color: $text;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #hero-header button{

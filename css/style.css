@@ -1,3 +1,6 @@
+body {
+  font-size: 14px; }
+
 #header {
   background-image: url("assets/bg-header.jpg");
   background-position-x: -300px;
@@ -11,7 +14,7 @@
 
 #header nav ul li a {
   color: #FFFFFF;
-  font-size: 17px; }
+  font-size: 16px; }
 
 #top-nav nav ul {
   margin: 0;
@@ -22,7 +25,10 @@
 #top-nav nav a {
   display: block;
   padding: 6px 12px;
-  text-decoration: none; }
+  text-decoration: none;
+  font-size: 16px; }
+#top-nav nav a.active {
+  color: #8799A3; }
 
 #top-nav {
   padding-top: 30px; }
@@ -35,7 +41,7 @@
   font-size: 13px;
   font-weight: 700;
   color: #FFFF00;
-  box-shadow: 0px 10px 30px 0px rgba(254, 203, 22, 0.5); }
+  box-shadow: 0px 10px 30px 0px rgba(254, 200, 22, 0.2); }
 
 #hero-header {
   margin-top: 250px;
@@ -70,7 +76,7 @@
 
 .desc-hero {
   color: #636363;
-  font-size: 24px; }
+  font-size: 20px; }
 
 #hero-header button {
   background-color: #2b2b2b;
