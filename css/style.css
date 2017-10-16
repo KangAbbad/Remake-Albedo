@@ -1,12 +1,17 @@
 #header {
   background-image: url("assets/bg-header.jpg");
-  background-position-x: -550px;
-  background-position-y: -150px;
-  height: 800px;
+  background-position-x: -300px;
+  background-position-y: -130px;
+  height: 1000px;
   font-family: "Montserrat", sans-serif; }
 
+.highlight {
+  background-color: rgba(37, 37, 37, 0.6);
+  height: 100%; }
+
 #header nav ul li a {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-size: 17px; }
 
 #top-nav nav ul {
   margin: 0;
@@ -21,5 +26,61 @@
 
 #top-nav {
   padding-top: 30px; }
+
+.btn-yellow {
+  border-radius: 25px;
+  padding: 10px 40px;
+  border: 2px solid #FFFF00;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  color: #FFFF00;
+  box-shadow: 0px 10px 30px 0px rgba(254, 203, 22, 0.5); }
+
+#hero-header {
+  margin-top: 250px;
+  width: 570px; }
+
+.say-hi {
+  color: #FFFFFF;
+  font-family: "Leckerli One", cursive;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 38px;
+  margin-bottom: 18px; }
+
+.introduce {
+  color: #FFFFFF;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 65px;
+  color: #FFFFFF;
+  margin-bottom: 18px; }
+
+.name {
+  color: #0081FF; }
+
+.his-job {
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 45px;
+  color: #FFFFFF;
+  margin-bottom: 28px; }
+
+.desc-hero {
+  color: #636363;
+  font-size: 24px; }
+
+#hero-header button {
+  background-color: #2b2b2b;
+  border: none;
+  font-size: 13px;
+  padding: 5px 45px;
+  margin-top: 5px;
+  line-height: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 50px; }
 
 /*# sourceMappingURL=style.css.map */
