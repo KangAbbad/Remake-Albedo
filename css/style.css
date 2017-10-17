@@ -1,8 +1,38 @@
+/* Global CSS */
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #FFFFFF; }
 
+h1 {
+  color: #FFFFFF;
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 5px; }
+
+h2 {
+  color: #FFFFFF;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 45px;
+  margin-bottom: 15px; }
+
+h4 {
+  color: #FFFFFF;
+  font-family: "Leckerli One", cursive;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 38px;
+  margin-bottom: 12px; }
+
+.desc {
+  font-size: 18px;
+  line-height: 30px; }
+
+.desc-hero {
+  color: #636363; }
+
+/* Style CSS */
 #header {
   background-image: url("assets/bg-header.jpg");
   background-position-x: -300px;
@@ -14,10 +44,6 @@ body {
   background-color: rgba(37, 37, 37, 0.6);
   height: 100%; }
 
-#header nav ul li a {
-  color: #FFFFFF;
-  font-size: 16px; }
-
 #top-nav nav ul {
   margin: 0;
   padding: 0;
@@ -28,7 +54,8 @@ body {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #FFFFFF; }
 #top-nav nav a.active {
   color: #8799A3; }
 #top-nav nav a:hover {
@@ -37,7 +64,7 @@ body {
 #top-nav {
   padding-top: 30px; }
 
-.btn-yellow {
+.btn-outline-warning {
   border-radius: 25px;
   padding: 10px 40px;
   border: 2px solid #FFFF00;
@@ -47,64 +74,27 @@ body {
   color: #FFFF00;
   box-shadow: 0px 10px 30px 0px rgba(254, 200, 22, 0.2); }
 
-#hero-header {
-  margin-top: 250px; }
-
-.say {
-  color: #FFFFFF;
-  font-family: "Leckerli One", cursive;
-  font-weight: normal;
-  font-size: 35px;
-  line-height: 38px;
-  margin-bottom: 12px; }
-
-.introduce {
-  color: #FFFFFF;
-  font-size: 45px;
-  font-weight: 900;
-  line-height: 65px;
-  margin-bottom: 5px; }
-
-.name {
-  color: #0081FF; }
-
-.his-job {
-  color: #FFFFFF;
-  font-weight: 100;
-  font-size: 30px;
-  line-height: 45px;
-  margin-bottom: 15px; }
-
-.desc-hero {
-  color: #636363;
-  font-size: 18px; }
-
-#hero-header button {
+.btn-dark {
   background-color: #2b2b2b;
   border: none;
   font-size: 13px;
-  padding: 5px 45px;
+  padding: 3px 35px;
   margin-top: 5px;
   line-height: 50px;
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 50px; }
 
+#hero-header {
+  margin-top: 250px; }
+
+.name {
+  color: #0081FF; }
+
 #about-desc {
   background-color: #0081FF;
   padding-top: 120px;
   padding-bottom: 35px; }
-
-.desc-about-1 {
-  font-size: 41px;
-  font-weight: 900;
-  line-height: 52px;
-  margin-top: 20px; }
-
-.desc-about-2 {
-  font-size: 19px;
-  margin-top: 20px;
-  line-height: 33px; }
 
 #about-job {
   background-color: #007af3;
@@ -114,6 +104,16 @@ body {
   width: 50px;
   height: 50px; }
 
+.desc-about-1 {
+  font-size: 41px;
+  font-weight: 900;
+  line-height: 52px;
+  margin-top: 20px; }
+
+.desc-about-2 {
+  font-size: 19px;
+  line-height: 35px; }
+
 .title-job {
   font-size: 23px;
   font-family: "Montserrat", sans-serif;
@@ -121,8 +121,16 @@ body {
   line-height: 30px;
   margin-bottom: 16px; }
 
-.desc-job {
-  font-size: 17px;
-  line-height: 25px; }
+#social-media {
+  background-color: #0081FF;
+  padding: 70px 0 80px; }
+
+#social-media p a {
+  font-size: 25px;
+  margin-right: 25px;
+  color: #4ba6fd; }
+
+.fa-twitter {
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */
