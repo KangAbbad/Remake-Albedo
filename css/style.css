@@ -1,5 +1,7 @@
 body {
-  font-size: 14px; }
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF; }
 
 #header {
   background-image: url("assets/bg-header.jpg");
@@ -48,11 +50,11 @@ body {
 #hero-header {
   margin-top: 250px; }
 
-.say-hi {
+.say {
   color: #FFFFFF;
   font-family: "Leckerli One", cursive;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 38px;
   margin-bottom: 12px; }
 
@@ -87,5 +89,40 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 50px; }
+
+#about-desc {
+  background-color: #0081FF;
+  padding-top: 120px;
+  padding-bottom: 35px; }
+
+.desc-about-1 {
+  font-size: 41px;
+  font-weight: 900;
+  line-height: 52px;
+  margin-top: 20px; }
+
+.desc-about-2 {
+  font-size: 19px;
+  margin-top: 20px;
+  line-height: 33px; }
+
+#about-job {
+  background-color: #007af3;
+  padding: 70px 0 25px; }
+
+#about-job .media img {
+  width: 50px;
+  height: 50px; }
+
+.title-job {
+  font-size: 23px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 30px;
+  margin-bottom: 16px; }
+
+.desc-job {
+  font-size: 17px;
+  line-height: 25px; }
 
 /*# sourceMappingURL=style.css.map */
