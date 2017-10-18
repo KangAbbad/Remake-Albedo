@@ -63,8 +63,7 @@ h4 {
 
 .btn, .btn-outline-warning, .btn-dark {
   font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase; }
+  font-weight: 700; }
 
 .btn-outline-warning {
   border: 2px solid #FFFF00;
@@ -93,7 +92,7 @@ h4 {
 
 #about-job {
   background-color: #007af2;
-  padding: 70px 0 25px; }
+  padding: 70px 0 10px; }
 
 #about-job .media img {
   width: 50px;
@@ -103,12 +102,11 @@ h4 {
   font-size: 38px;
   font-weight: 900;
   line-height: 52px;
-  margin-top: 20px;
   letter-spacing: 0.5px; }
 
 .desc-about-2 {
-  font-size: 19px;
-  line-height: 35px;
+  font-size: 18px;
+  line-height: 30px;
   letter-spacing: 0.5px; }
 
 .title-job {
