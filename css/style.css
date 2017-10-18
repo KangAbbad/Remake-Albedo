@@ -5,29 +5,26 @@ body {
   color: #FFFFFF; }
 
 h1 {
-  color: #FFFFFF;
   font-size: 45px;
   font-weight: 900;
   margin-bottom: 5px; }
 
 h2 {
-  color: #FFFFFF;
   font-weight: 100;
   font-size: 30px;
   line-height: 45px;
   margin-bottom: 15px; }
 
 h4 {
-  color: #FFFFFF;
   font-family: "Leckerli One", cursive;
-  font-weight: normal;
   font-size: 35px;
   line-height: 38px;
   margin-bottom: 12px; }
 
 .desc {
   font-size: 18px;
-  line-height: 30px; }
+  line-height: 30px;
+  letter-spacing: 0.6px; }
 
 .desc-hero {
   color: #636363; }
@@ -43,6 +40,9 @@ h4 {
 .highlight {
   background-color: rgba(37, 37, 37, 0.6);
   height: 100%; }
+
+#top-nav {
+  padding-top: 30px; }
 
 #top-nav nav ul {
   margin: 0;
@@ -61,29 +61,25 @@ h4 {
 #top-nav nav a:hover {
   color: #8799A3; }
 
-#top-nav {
-  padding-top: 30px; }
-
-.btn-outline-warning {
-  border-radius: 25px;
-  padding: 10px 40px;
-  border: 2px solid #FFFF00;
-  text-transform: uppercase;
+.btn, .btn-outline-warning, .btn-dark {
   font-size: 13px;
   font-weight: 700;
+  text-transform: uppercase; }
+
+.btn-outline-warning {
+  border: 2px solid #FFFF00;
+  border-radius: 25px;
+  padding: 10px 40px;
   color: #FFFF00;
   box-shadow: 0px 10px 30px 0px rgba(254, 200, 22, 0.2); }
 
 .btn-dark {
-  background-color: #2b2b2b;
   border: none;
-  font-size: 13px;
+  border-radius: 50px;
   padding: 3px 35px;
   margin-top: 5px;
   line-height: 50px;
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 50px; }
+  background-color: #2b2b2b; }
 
 #hero-header {
   margin-top: 250px; }
@@ -93,11 +89,10 @@ h4 {
 
 #about-desc {
   background-color: #0081FF;
-  padding-top: 120px;
-  padding-bottom: 35px; }
+  padding: 120px 0 35px; }
 
 #about-job {
-  background-color: #007af3;
+  background-color: #007af2;
   padding: 70px 0 25px; }
 
 #about-job .media img {
@@ -112,11 +107,12 @@ h4 {
 
 .desc-about-2 {
   font-size: 19px;
-  line-height: 35px; }
+  line-height: 35px;
+  letter-spacing: 0.5px; }
 
 .title-job {
-  font-size: 23px;
   font-family: "Montserrat", sans-serif;
+  font-size: 23px;
   font-weight: 900;
   line-height: 30px;
   margin-bottom: 16px; }
@@ -129,6 +125,9 @@ h4 {
   font-size: 25px;
   margin-right: 25px;
   color: #4ba6fd; }
+
+.fa:hover {
+  color: #FFFFFF; }
 
 .fa-twitter {
   color: #FFFFFF; }
