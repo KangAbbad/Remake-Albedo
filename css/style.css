@@ -100,10 +100,11 @@ h4 {
   height: 50px; }
 
 .desc-about-1 {
-  font-size: 41px;
+  font-size: 38px;
   font-weight: 900;
   line-height: 52px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  letter-spacing: 0.5px; }
 
 .desc-about-2 {
   font-size: 19px;
