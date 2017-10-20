@@ -168,17 +168,15 @@ h6 {
   transform: scale(3);
   margin-left: 90px; }
 #gallery-portofolio .ts-4 {
-  height: 400px;
+  height: 350px;
   width: 100%;
-  transform: scaleX(1.3) scaleY(1);
-  margin-top: -30px; }
+  transform: scaleX(1.3) scaleY(1); }
 #gallery-portofolio .ts-5 {
   width: 100%;
   height: 220px; }
 #gallery-portofolio .ts-6 {
   width: 100%;
-  height: 220px;
-  margin-top: -20px; }
+  height: 220px; }
 #gallery-portofolio .overlay {
   background-color: rgba(55, 64, 71, 0.8);
   padding: 50px 60px;
