@@ -5,11 +5,15 @@ body {
   color: #FFFFFF; }
 
 h1 {
-  font-size: 45px;
+  font-size: 46px;
   font-weight: 900;
   margin-bottom: 5px; }
 
 h2 {
+  font-size: 40px;
+  font-weight: 900; }
+
+h3 {
   font-weight: 100;
   font-size: 30px;
   line-height: 45px;
@@ -48,23 +52,22 @@ h6 {
 
 #top-nav {
   padding-top: 30px; }
-
-#top-nav nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-#top-nav nav li {
-  display: inline-block; }
-#top-nav nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-  font-size: 16px;
-  color: #FFFFFF; }
-#top-nav nav a.active {
-  color: #8799A3; }
-#top-nav nav a:hover {
-  color: #8799A3; }
+  #top-nav nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  #top-nav nav li {
+    display: inline-block; }
+  #top-nav nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF; }
+  #top-nav nav a.active {
+    color: #8799A3; }
+  #top-nav nav a:hover {
+    color: #8799A3; }
 
 .btn, .btn-outline-warning, .btn-dark, #head-portofolio button {
   font-size: 13px;
@@ -98,12 +101,11 @@ h6 {
 #about-job {
   background-color: #007af2;
   padding: 70px 0 10px; }
+  #about-job .media img {
+    width: 50px;
+    height: 50px; }
 
-#about-job .media img {
-  width: 50px;
-  height: 50px; }
-
-.desc-about-1, #head-portofolio p {
+.desc-about-1 {
   font-size: 38px;
   font-weight: 900;
   line-height: 52px;
@@ -124,11 +126,10 @@ h6 {
 #social-media {
   background-color: #0081FF;
   padding: 70px 0 80px; }
-
-#social-media p a {
-  font-size: 25px;
-  margin-right: 25px;
-  color: #4ba6fd; }
+  #social-media p a {
+    font-size: 25px;
+    margin-right: 25px;
+    color: #4ba6fd; }
 
 .fa:hover {
   color: #FFFFFF; }
@@ -140,9 +141,7 @@ h6 {
   padding: 90px 0 50px; }
   #head-portofolio h4 {
     color: #8799A3; }
-  #head-portofolio p {
-    font-size: 40px;
-    font-weight: 900;
+  #head-portofolio h2 {
     color: #252525; }
   #head-portofolio button {
     font-size: 12px;
@@ -186,7 +185,7 @@ h6 {
   opacity: 0; }
   #gallery-portofolio .overlay .title-overlay {
     font-size: 12px;
-    color: #92a5b1; }
+    color: #8799A3; }
   #gallery-portofolio .overlay .desc-overlay {
     font-size: 15px;
     font-weight: 900; }
@@ -196,5 +195,39 @@ h6 {
 #gallery-portofolio .overlay:hover {
   opacity: 1;
   transition: 0.3s ease; }
+
+#client {
+  background-image: url("assets/bg-client.jpg");
+  background-repeat: no-repeat;
+  background-position-x: -1500px;
+  background-position-y: -800px; }
+  #client .highlight {
+    padding: 200px 0px;
+    background-color: rgba(37, 37, 37, 0.767); }
+  #client .brand {
+    margin-top: 100px; }
+    #client .brand img {
+      width: 70%; }
+  #client .testimonials p {
+    font-family: "Coustard", serif;
+    font-size: 20px;
+    margin: 0 20%; }
+  #client .carousel-control-prev,
+  #client .carousel-control-next {
+    width: auto; }
+  #client span img {
+    height: 25px; }
+  #client .client-pic {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    object-position: center; }
+  #client .client-name {
+    font-weight: 700;
+    color: #FFFF00; }
+  #client .client-job {
+    font-size: 14px;
+    color: #8799A3; }
 
 /*# sourceMappingURL=style.css.map */

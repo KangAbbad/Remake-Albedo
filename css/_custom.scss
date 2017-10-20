@@ -6,12 +6,17 @@ body {
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 46px;
     font-weight: 900;
     margin-bottom: 5px;
 }
 
 h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+h3 {
     font-weight: 100;
     font-size: 30px;
     line-height: 45px;
@@ -57,25 +62,25 @@ h6 {
 
 #top-nav {
     padding-top: 30px;
-}
 
-#top-nav nav {
-    ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
+    nav {
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    
+        li { display: inline-block; }
+        a {
+            display: block;
+            padding: 6px 12px;
+            text-decoration: none;
+            font-size: 16px;
+            color: $default;
+        }
+        a.active { color: $active; }
+        a:hover{ color: $active; }
     }
-
-    li { display: inline-block; }
-    a {
-        display: block;
-        padding: 6px 12px;
-        text-decoration: none;
-        font-size: 16px;
-        color: $default;
-    }
-    a.active { color: $active; }
-    a:hover{ color: $active; }
 }
 
 .btn {
@@ -120,12 +125,11 @@ h6 {
 #about-job {
     background-color: $bg-blue-2;
     padding: 70px 0 10px;
-}
 
-
-#about-job .media img {
-    width: 50px;
-    height: 50px;
+    .media img {
+        width: 50px;
+        height: 50px;
+    }
 }
 
 .desc-about-1 {
@@ -152,13 +156,11 @@ h6 {
 #social-media {
     background-color: $blue;
     padding: 70px 0 80px;
-}
 
-#social-media {
     p a {
-    font-size: 25px;
-    margin-right: 25px;
-    color: #4ba6fd;
+        font-size: 25px;
+        margin-right: 25px;
+        color: #4ba6fd;
     }
 }
 
@@ -177,11 +179,7 @@ h6 {
         color: $silver-text;
     }
 
-    p {
-        @extend .desc-about-1;
-
-        font-size: 40px;
-        font-weight: 900;
+    h2 {
         color: $black-text;
     }
 
@@ -247,7 +245,7 @@ h6 {
     
         .title-overlay {
             font-size: 12px;
-            color: #92a5b1;
+            color: $silver-text;
         }
         .desc-overlay {
             font-size: 15px;
@@ -261,6 +259,59 @@ h6 {
     .overlay:hover {
         opacity: 1;
         transition: 0.3s ease;
-    }
-    
+    }   
 }
+
+#client {
+    background-image: $bg-client;
+    background-repeat: no-repeat;
+    background-position-x: -1500px;
+    background-position-y: -800px;
+
+    .highlight {
+        padding: 200px 0px;
+        background-color: rgba(37, 37, 37, 0.767);
+    }
+
+    .brand {
+        margin-top: 100px;
+
+        img {
+            width: 70%;
+        }
+    }
+
+    .testimonials p{
+        font-family: $coustard;
+        font-size: 20px;
+        margin: 0 20%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: auto;
+    }
+
+    span img {
+        height: 25px;
+    }
+
+    .client-pic {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 100%;
+        object-position: center;
+    }
+
+    .client-name {
+        font-weight: 700;
+        color: $btn-yellow;
+    }
+
+    .client-job {
+        font-size: 14px;
+        color: $silver-text;
+    }
+}
+
