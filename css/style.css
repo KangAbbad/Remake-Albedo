@@ -188,13 +188,15 @@ h6 {
     color: #8799A3; }
   #gallery-portofolio .overlay .desc-overlay {
     font-size: 15px;
-    font-weight: 900; }
+    font-weight: 700; }
   #gallery-portofolio .overlay img {
     height: 20px;
     width: 20px; }
 #gallery-portofolio .overlay:hover {
   opacity: 1;
   transition: 0.3s ease; }
+#gallery-portofolio .overlay-active {
+  opacity: 1; }
 
 #client {
   background-image: url("assets/bg-client.jpg");

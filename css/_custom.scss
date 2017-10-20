@@ -249,7 +249,7 @@ h6 {
         }
         .desc-overlay {
             font-size: 15px;
-            font-weight: 900;
+            font-weight: 700;
         }
         img{
             height: 20px;
@@ -259,7 +259,11 @@ h6 {
     .overlay:hover {
         opacity: 1;
         transition: 0.3s ease;
-    }   
+    }
+    
+    .overlay-active {
+        opacity: 1;
+    }
 }
 
 #client {
