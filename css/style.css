@@ -26,8 +26,7 @@ h4 {
 
 h6 {
   font-size: 16px;
-  line-height: 26px;
-  color: #73828b; }
+  line-height: 26px; }
 
 .desc {
   font-size: 18px;
@@ -227,7 +226,41 @@ h6 {
     font-weight: 700;
     color: #FFFF00; }
   #client .client-job {
-    font-size: 14px;
     color: #8799A3; }
+
+#blog {
+  padding: 150px 0 100px; }
+  #blog h4 {
+    color: #8799A3; }
+  #blog h2:first-child {
+    color: #252525;
+    line-height: 50px; }
+  #blog h6 {
+    font-weight: 700; }
+  #blog blockquote {
+    font-family: "Coustard", serif;
+    font-size: 25px;
+    padding: 10px 20px; }
+  #blog .quote {
+    background-color: #007EF9; }
+  #blog .desc {
+    font-size: 20px; }
+  #blog .date {
+    font-weight: 700;
+    margin-bottom: 15px; }
+  #blog .author {
+    color: #FFFF00; }
+  #blog .gallery-post {
+    background-image: url("assets/blog-1.png");
+    background-size: cover;
+    padding: 100px 70px;
+    height: 100%; }
+
+.btn-warning {
+  border: none;
+  border-radius: 50px;
+  padding: 0px 35px;
+  line-height: 50px;
+  background-color: #FCFA2F; }
 
 /*# sourceMappingURL=style.css.map */

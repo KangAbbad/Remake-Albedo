@@ -32,7 +32,6 @@ h4 {
 h6 {
     font-size: 16px;
     line-height: 26px;
-    color: #73828b;
 }
 
 .desc {
@@ -312,8 +311,54 @@ h6 {
     }
 
     .client-job {
-        font-size: 14px;
         color: $silver-text;
     }
 }
 
+#blog {
+    padding: 150px 0 100px;
+
+    h4 {
+        color: $silver-text;
+    }
+    h2:first-child {
+        color: $black-text;
+        line-height: 50px;
+    }
+    h6 {
+        font-weight: 700;
+    }
+
+    blockquote {
+        font-family: $coustard;
+        font-size: 25px;
+        padding: 10px 20px;
+    }
+    .quote {
+        background-color: $color-1;
+    }
+    .desc {
+        font-size: 20px;
+    }
+    .date {
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .author {
+        color: $btn-yellow;
+    }
+    .gallery-post {
+        background-image: $bg-gallery;
+        background-size: cover;
+        padding: 100px 70px;
+        height: 100%;
+    }
+}
+
+.btn-warning {
+    border: none;
+    border-radius: 50px;
+    padding: 0px 35px;
+    line-height: 50px;
+    background-color: $color-2;
+}
