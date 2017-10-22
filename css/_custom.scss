@@ -8,7 +8,6 @@ body {
 h1 {
     font-size: 46px;
     font-weight: 900;
-    margin-bottom: 5px;
 }
 
 h2 {
@@ -20,13 +19,16 @@ h3 {
     font-weight: 100;
     font-size: 30px;
     line-height: 45px;
-    margin-bottom: 15px;
 }
 
 h4 {
-    font-family: $leckerli;
     font-size: 35px;
     line-height: 38px;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 30px;
 }
 
 h6 {
@@ -34,14 +36,64 @@ h6 {
     line-height: 26px;
 }
 
+.leckerli {
+    font-family: $leckerli;
+}
+
+.white-text {
+    color: $default;
+}
+.black-text {
+    color: $black-text;
+}
+.gray-text {
+    color: $gray-text;
+}
+.silver-text {
+    color: $silver-text;
+}
+.yellow-text {
+    color: $yellow-text;
+}
+.blue-text {
+    color: $blue-text;
+}
+
 .desc {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 30px;
     letter-spacing: 0.6px;
 }
 
-.desc-hero {
-    color: $gray-text;
+.btn {
+    font-size: 13px;
+    font-weight: 700;
+}
+.btn-dark{
+    @extend .btn;
+
+    border: none;
+    border-radius: 50px;
+    padding: 3px 35px;
+    margin-top: 5px;
+    line-height: 50px;
+    background-color: $bg-black;
+}
+.btn-warning {
+    border: none;
+    border-radius: 50px;
+    padding: 0px 35px;
+    line-height: 50px;
+    background-color: $bg-yellow-young;
+}
+.btn-outline-warning {
+    @extend .btn;
+
+    border: 2px solid $bg-yellow-old;
+    border-radius: 25px;
+    padding: 10px 40px;
+    color: $bg-yellow-old;
+    box-shadow: 0px 10px 30px 0px rgba(254, 200, 22, 0.2);
 }
 
 /* Style CSS */
@@ -50,8 +102,8 @@ h6 {
     background-position-x: -100px;
     background-position-y: -130px;
     background-size: 2000px;
-    height: 950px;
     font-family: $montserrat;
+    height: 950px;
 }
 
 .highlight {
@@ -82,48 +134,31 @@ h6 {
     }
 }
 
-.btn {
-    font-size: 13px;
-    font-weight: 700;
-}
-
-.btn-outline-warning {
-    @extend .btn;
-
-    border: 2px solid $btn-yellow;
-    border-radius: 25px;
-    padding: 10px 40px;
-    color: $btn-yellow;
-    box-shadow: 0px 10px 30px 0px rgba(254, 200, 22, 0.2);
-}
-
-.btn-dark{
-    @extend .btn;
-
-    border: none;
-    border-radius: 50px;
-    padding: 3px 35px;
-    margin-top: 5px;
-    line-height: 50px;
-    background-color: #2b2b2b;
-}
-
 #hero-header {
     margin-top: 250px;
 }
 
-.name {
-    color: $blue;
-}
-
 #about-desc {
-    background-color: $blue;
+    background-color: $bg-blue-young;
     padding: 120px 0 35px;
+
+    .desc-about-1 {
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 52px;
+        letter-spacing: 0.5px;
+    }
 }
 
 #about-job {
-    background-color: $bg-blue-2;
+    background-color: $bg-blue-old;
     padding: 70px 0 10px;
+    
+    .title-job {
+        font-size: 23px;
+        font-weight: 900;
+        line-height: 30px;
+    }
 
     .media img {
         width: 50px;
@@ -131,29 +166,8 @@ h6 {
     }
 }
 
-.desc-about-1 {
-    font-size: 38px;
-    font-weight: 900;
-    line-height: 52px;
-    letter-spacing: 0.5px;
-}
-
-.desc-about-2 {
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: 0.5px;
-}
-
-.title-job {
-    font-family: $montserrat;
-    font-size: 23px;
-    font-weight: 900;
-    line-height: 30px;
-    margin-bottom: 16px;
-}
-
 #social-media {
-    background-color: $blue;
+    background-color: $bg-blue-young;
     padding: 70px 0 80px;
 
     p a {
@@ -186,12 +200,15 @@ h6 {
         @extend .btn;
 
         font-size: 12px;
-        border: 1px solid $btn-bluesky;
+        border: 1px solid $bg-bluesky;
         border-radius: 25px;
-        background-color: $btn-bluesky;
+        background-color: $bg-bluesky;
         padding: 15px 50px;
         color: $default;
         box-shadow: 0px 10px 30px 0px rgba(22, 246, 254, 0.322);      
+    }
+    button:hover {
+        background-color: rgb(29, 182, 169);
     }
 }
 
@@ -307,7 +324,6 @@ h6 {
 
     .client-name {
         font-weight: 700;
-        color: $btn-yellow;
     }
 
     .client-job {
@@ -318,12 +334,15 @@ h6 {
 #blog {
     padding: 150px 0 100px;
 
-    h4 {
-        color: $silver-text;
-    }
-    h2:first-child {
-        color: $black-text;
+    
+    h2 {
         line-height: 50px;
+    }
+    h3 {
+        font-weight: 900;
+    }
+    h5 {
+        font-weight: 900;
     }
     h6 {
         font-weight: 700;
@@ -340,25 +359,55 @@ h6 {
     .desc {
         font-size: 20px;
     }
-    .date {
-        font-weight: 700;
-        margin-bottom: 15px;
-    }
-    .author {
-        color: $btn-yellow;
-    }
     .gallery-post {
         background-image: $bg-gallery;
-        background-size: cover;
-        padding: 100px 70px;
+        background-size: 1100px;
+        background-position-y: -70px;
+        padding: 110px 120px;
         height: 100%;
+
+        p {
+            line-height: 30px;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+    }
+    .standard-post {
+        background-image: $bg-standard-post;
+        padding: 50px;
+        height: 100%;
+    }
+    .video-post {
+        background-image: $bg-video-post;
+        height: 100%;
+
+        img {
+            width: 40px;
+        }
+        .highlight {
+            padding: 50px;
+        }
+    }
+    .without-img {
+        padding: 50px;
+        height: 100%;
+
+        p {
+            line-height: 25px;
+            font-size: 15px;
+        }
+    }
+    .view-all {
+        background-color: $bg-pink;
+        padding: 50px;
+        height: 100%;
+
+        p {
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 15px;
+            margin-top: 70px;
+        }
     }
 }
 
-.btn-warning {
-    border: none;
-    border-radius: 50px;
-    padding: 0px 35px;
-    line-height: 50px;
-    background-color: $color-2;
-}
