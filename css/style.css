@@ -270,43 +270,47 @@ a:hover {
     background-color: #007af2; }
   #blog .desc {
     font-size: 20px; }
-  #blog .gallery-post {
-    background-image: url("assets/blog-1.png");
-    background-size: 1100px;
-    background-position-y: -70px;
-    padding: 90px 120px;
-    height: 100%; }
-    #blog .gallery-post p {
-      line-height: 30px;
-      font-size: 16px;
-      letter-spacing: 0.5px; }
+  #blog .gallery-post .carousel-caption {
+    bottom: auto;
+    top: 100px;
+    padding: 0;
+    text-align: left; }
+  #blog .gallery-post .carousel-item img {
+    height: 497px; }
+  #blog .gallery-post .carousel-indicators {
+    right: auto;
+    bottom: 40px; }
+  #blog .gallery-post .carousel-indicators li {
+    padding: 3px;
+    width: 25px;
+    border-radius: 10px; }
+  #blog .gallery-post p {
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 0px 35px 0px 0px; }
   #blog .standard-post {
-    background-image: url("assets/blog-2.png");
+    height: 100%;
+    padding: 50px; }
+  #blog .highlight-video-post {
+    background-color: rgba(37, 37, 37, 0.6);
     padding: 50px;
-    height: 100%; }
-  #blog .video-post {
-    background-image: url("assets/blog-3.png");
-    height: 100%; }
-    #blog .video-post img {
-      width: 40px; }
-    #blog .video-post .highlight {
-      padding: 50px; }
+    margin: 0px 15px; }
+    #blog .highlight-video-post img:first-child {
+      transform: scaleX(-1); }
   #blog .without-img {
     padding: 50px;
     height: 100%;
-    box-shadow: 0px 0px 100px 100px rgba(168, 160, 160, 0.247); }
+    box-shadow: 0px 0px 100px 100px rgba(168, 160, 160, 0.2); }
     #blog .without-img p {
       line-height: 25px;
       font-size: 15px; }
   #blog .view-all {
     background-color: #E91E62;
-    padding: 50px;
     height: 100%; }
     #blog .view-all p {
       font-size: 15px;
-      font-weight: 700;
-      line-height: 15px;
-      margin-top: 70px; }
+      font-weight: 700; }
 
 #contact {
   background-image: url("assets/bg-contact.jpg");
@@ -339,7 +343,7 @@ a:hover {
     transition: all 300ms;
     padding: 10px 30px;
     font-weight: bold;
-    width: 47%; }
+    width: 100%; }
   #contact input:hover, #contact textarea:hover {
     color: #FFFFFF;
     background-color: #252525;
@@ -351,7 +355,7 @@ a:hover {
 
 #founder {
   background-color: rgba(37, 37, 37, 0.97);
-  padding: 50px; }
+  padding: 50px 0px 0px; }
   #founder p {
     margin: 0;
     font-size: 15px;
