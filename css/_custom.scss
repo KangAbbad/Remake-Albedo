@@ -594,6 +594,12 @@ a:hover {
         }
     }
 
+    @media screen and (max-width:767px){
+        blockquote {
+            padding: 10px 0;
+        }
+    }
+
     @media screen and (max-width:375px){
         padding: 100px 0 70px;
 
