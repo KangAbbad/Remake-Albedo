@@ -53,6 +53,9 @@ h6 {
   line-height: 30px;
   letter-spacing: 0.6px; }
 
+.navbar-light .navbar-toggler {
+  border: 2px solid #FFFFFF; }
+
 .btn, .btn-dark, .btn-outline-warning, #head-portofolio button {
   font-size: 13px;
   font-weight: 700; }
@@ -106,6 +109,11 @@ a:hover {
   background-size: 2000px;
   font-family: "Montserrat", sans-serif;
   height: 950px; }
+  @media screen and (max-width: 375px) {
+    #header {
+      background-position-x: 1000px;
+      background-position-y: 95px;
+      background-size: 1500px; } }
 
 #top-nav {
   padding-top: 30px; }
@@ -117,7 +125,7 @@ a:hover {
     display: inline-block; }
   #top-nav nav a {
     display: block;
-    padding: 6px 12px;
+    padding: 6px 15px;
     text-decoration: none;
     font-size: 16px;
     color: #FFFFFF; }
@@ -125,18 +133,33 @@ a:hover {
     color: #8799A3; }
   #top-nav nav a:hover {
     color: #8799A3; }
+  @media screen and (max-width: 320px) {
+    #top-nav nav a {
+      padding: 6px 5px; } }
 
 #hero-header {
   margin-top: 250px; }
+  @media screen and (max-width: 375px) {
+    #hero-header h3 {
+      font-size: 27px; } }
 
 #about-desc {
   background-color: #0081FF;
   padding: 120px 0 35px; }
+  @media screen and (max-width: 375px) {
+    #about-desc {
+      padding: 90px 0 35px; }
+      #about-desc .desc {
+        line-height: 25px; } }
   #about-desc .desc-about-1 {
     font-size: 38px;
     font-weight: 900;
     line-height: 52px;
     letter-spacing: 0.5px; }
+    @media screen and (max-width: 375px) {
+      #about-desc .desc-about-1 {
+        font-size: 25px;
+        line-height: 35px; } }
 
 #about-job {
   background-color: #007af2;
@@ -152,6 +175,9 @@ a:hover {
 #social-media {
   background-color: #0081FF;
   padding: 70px 0 80px; }
+  @media screen and (max-width: 375px) {
+    #social-media .desc {
+      font-size: 20px; } }
   #social-media p a {
     font-size: 25px;
     margin-right: 25px;
@@ -175,6 +201,19 @@ a:hover {
     box-shadow: 0px 10px 30px 0px rgba(22, 246, 254, 0.322); }
   #head-portofolio button:hover {
     background-color: #1db6a9; }
+  @media screen and (max-width: 375px) {
+    #head-portofolio {
+      padding: 60px 0 40px; }
+      #head-portofolio h2 {
+        font-size: 26px;
+        line-height: 0;
+        margin-bottom: 20px; }
+      #head-portofolio h4 {
+        font-size: 25px;
+        line-height: 20px; }
+      #head-portofolio button {
+        float: left;
+        width: 100%; } }
 
 #gallery-portofolio .no-gutters {
   overflow: hidden; }
@@ -219,6 +258,13 @@ a:hover {
   transition: 0.3s ease; }
 #gallery-portofolio .overlay-active {
   opacity: 1; }
+@media screen and (max-width: 375px) {
+  #gallery-portofolio .ts-1, #gallery-portofolio .ts-2, #gallery-portofolio .ts-3, #gallery-portofolio .ts-4, #gallery-portofolio .ts-5, #gallery-portofolio .ts-6 {
+    height: 250px; }
+  #gallery-portofolio .ts-2 {
+    transform: scaleY(1.5); }
+  #gallery-portofolio .ts-4 {
+    transform: scaleY(1.3); } }
 
 #client {
   background-image: url("assets/bg-client.jpg");
@@ -251,6 +297,15 @@ a:hover {
     font-weight: 700; }
   #client .client-job {
     color: #8799A3; }
+  @media screen and (max-width: 375px) {
+    #client .highlight {
+      padding: 50px 0; }
+    #client h2 {
+      font-size: 27px; }
+    #client h4 {
+      font-size: 30px; }
+    #client .brand {
+      margin-top: 50px; } }
 
 #blog {
   padding: 150px 0 100px; }
@@ -265,7 +320,7 @@ a:hover {
   #blog blockquote {
     font-family: "Coustard", serif;
     font-size: 25px;
-    padding: 10px 20px; }
+    padding: 10px 70px; }
   #blog .quote {
     background-color: #007af2; }
   #blog .desc {
@@ -289,6 +344,21 @@ a:hover {
     font-size: 16px;
     letter-spacing: 0.5px;
     padding: 0px 35px 0px 0px; }
+  @media screen and (max-width: 375px) {
+    #blog .gallery-post img {
+      height: auto; }
+    #blog .gallery-post .carousel-caption {
+      top: 70px; }
+      #blog .gallery-post .carousel-caption p {
+        line-height: 25px;
+        font-size: 17px; }
+    #blog .gallery-post .btn-warning {
+      padding: 0 25px;
+      line-height: 40px;
+      margin-top: 20px; }
+    #blog .gallery-post h3 {
+      font-size: 28px;
+      line-height: 35px; } }
   #blog .standard-post {
     height: 100%;
     padding: 50px; }
@@ -311,6 +381,20 @@ a:hover {
     #blog .view-all p {
       font-size: 15px;
       font-weight: 700; }
+  @media screen and (max-width: 375px) {
+    #blog {
+      padding: 100px 0 70px; }
+      #blog h2 {
+        line-height: 30px;
+        font-size: 25px; }
+      #blog h4 {
+        font-size: 30px; }
+      #blog .desc {
+        font-size: 16px;
+        line-height: 20px; }
+      #blog blockquote {
+        padding: 10px 0;
+        font-size: 20px; } }
 
 #contact {
   background-image: url("assets/bg-contact.jpg");
@@ -352,6 +436,9 @@ a:hover {
   #contact textarea {
     width: 100%;
     padding: 20px 35px; }
+  @media screen and (max-width: 375px) {
+    #contact .highlight {
+      padding: 100px 0; } }
 
 #founder {
   background-color: rgba(37, 37, 37, 0.97);
