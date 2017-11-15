@@ -224,7 +224,8 @@ a:hover {
         margin-bottom: 20px; }
       #head-portofolio h4 {
         font-size: 25px;
-        line-height: 20px; }
+        line-height: 20px;
+        margin-bottom: 20px; }
       #head-portofolio button {
         float: left;
         width: 100%; } }
@@ -272,11 +273,11 @@ a:hover {
   transition: 0.3s ease; }
 #gallery-portofolio .overlay-active {
   opacity: 1; }
-@media screen {
+@media screen and (max-width: 767px) {
   #gallery-portofolio .ts-1, #gallery-portofolio .ts-2, #gallery-portofolio .ts-3, #gallery-portofolio .ts-4, #gallery-portofolio .ts-5, #gallery-portofolio .ts-6 {
     height: 350px; }
   #gallery-portofolio .ts-2 {
-    transform: scaleY(1.7); }
+    transform: scaleY(1.8); }
   #gallery-portofolio .ts-4 {
     transform: scaleY(1.3); } }
 @media screen and (max-width: 375px) {
@@ -315,7 +316,8 @@ a:hover {
     border-radius: 100%;
     object-position: center; }
   #client .client-name {
-    font-weight: 700; }
+    font-weight: 700;
+    font-size: 13px; }
   #client .client-job {
     color: #8799A3; }
   @media screen and (max-width: 375px) {
